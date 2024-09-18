@@ -21,7 +21,7 @@ jobs:
       - name: Build the app
         run: npm run build
 
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/githup-pages-deploy-action@v4
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: dist
